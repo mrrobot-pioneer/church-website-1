@@ -1,0 +1,47 @@
+footer {
+  background: var(--secondary-color);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+footer .footer-links ul {
+  list-style-type: none;
+}
+
+footer .footer-links ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+footer .footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+footer .footer-links ul li a:hover {
+  color: var(--primary-color);
+}
+
+footer .social-media {
+  gap: 2rem;
+  color: white;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+footer .social-media i {
+  font-size: 2.5rem;
+  color: white;
+}
+
+footer .social-media i:hover {
+  color: var(--primary-color);
+}
+
+footer h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
